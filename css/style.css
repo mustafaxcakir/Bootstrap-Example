@@ -43,5 +43,281 @@ body{
 #mainNav{
     background-color: rgba(47, 23, 15, 0.9);
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
 }
 
+#navbarcolor{
+    color: #e6a756;
+}
+
+.sayfaicerigi{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.giris {
+    position: relative;
+}
+
+.girisyazisikutucuk{
+    background-color: #f6e1c5;
+}
+
+.girisyazibasligi{
+    text-transform: uppercase;
+}
+
+.girisustbaslik{
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.girisaltbaslik{
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.girisyazisiparagraf{
+    font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    line-height: 1.75;
+}
+
+#clickbutton {
+    display: inline-block;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    border-color: #e6a756;
+    color: black;
+    vertical-align: middle;
+    background-color: #e6a756;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 700;
+}
+
+/* Dön */
+
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(230, 167, 86, 0.9);
+  }
+  
+.cta-inner {
+    padding: 2rem;
+    margin: 0.5rem;
+    background-color: #f6e1c5;
+    position: relative;
+}
+
+  .cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+  }
+
+  .cta .cta-inner:before {
+    border-radius: 0.5rem;
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+    z-index: -1;
+  }
+
+  .footer{
+    background-color: rgba(47, 23, 15, 0.9);
+  }
+  
+  .footertextcolor{
+    color: #f6e1c5;
+  }
+
+  .footertextstyle{
+    font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  
+/* Boyutlandırmalar */
+
+@media (min-width: 992px) {
+    .giris .girisimage {
+        width: 75%;
+        float: right;
+    }
+}
+
+@media (min-width: 992px) {
+    .giris .girisyazisikutucuk {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1200px) {
+    .giris .girisyazisikutucuk {
+        width: 45%;
+    }
+}
+
+@media (min-width: 992px){
+    .giris .girisyazisikutucuk .girisbutton {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+}
+
+/* About page settings */
+
+/* about photo görünüm ayarları */
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media(min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media(min-width: 992px){
+    .hakkindaicerigi .hakkindaicerigi-foto{
+        position: relative;
+        z-index: 0;
+    }
+}
+
+@media(min-width: 992px){
+    .container{
+        max-width: 960px;
+        position: relative;
+        z-index: 0;
+    }
+}
+
+@media(min-width: 768){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hakkindaicerigi .hakkindaicerigi-text {
+        margin-top: -5rem;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.textbackground{
+    background-color: #f6e1c5;
+}
+
+.aboutbaslik {
+    text-transform: uppercase;
+}
+
+/* Product page setting */
+
+.arkaplanrengi{
+    background-color: #f6e1c5;
+}
+
+.bolumbasligi{
+    text-transform: uppercase;
+}
+
+.ustbolumbasligi{
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.altbolumbasligi{
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.urunaciklamasi{
+    line-height: 1.75;
+    font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* product photo görünüm ayarları */
+
+@media (min-width: 992px){
+    .urun .urunbasligi{
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem;
+    }
+}
+
+@media (min-width: 992px){
+    .urun .urunaciklamasi{
+        position: relative;
+        margin-top: -3rem;
+        max-width: 50vw;
+        z-index: 1;
+    }
+} 
+
+/* store page settings */
+
+.gunlistesibasligi{
+    text-transform: uppercase;
+}
+
+.gunlistesiustbaslik{
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.gunlistesialtbaslik{
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.saatler .saatler-item{
+    border-bottom: 1px solid rgba(230, 167, 86, 0.5); 
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/*store page uyumluluk */
+@media (min-width: 992px){
+    .saatler{
+        width: 50%;
+        font-size: 1.1rem;
+    }
+}
